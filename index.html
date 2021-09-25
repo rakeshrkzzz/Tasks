@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="#" id="form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"/>
+            <!-- <span id="nameerr">error</span> -->
+            
+            <label for="age">Age</label>
+            <input type="number" id="age" min="0" max="100"/>
+            <!-- <span id="ageerr"></span> -->
+            
+            <label for="dob">DOB</label>
+            <input type="date" id="dob"/>
+            <!-- <span id="doberr"></span> -->
+
+            <button id="btnsave" type="button">Save</button>
+
+            <input type="number" id="rmv" min="0" max="100"/>
+            <button id="btnrmv" type="button">Remove</button>
+        </form>
+
+        <table id="table">
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>DOB</td>
+            </tr>
+        </table>
+
+        <script src="script.js"></script>
+    </body>
+</html>
